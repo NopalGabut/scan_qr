@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:qr_scan/page/home_page.dart';
-
+import 'package:qr_scan/page/qr_page.dart';
 void main() {
   runApp(const MyApp());
 }
@@ -12,6 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+
       title: 'Flutter Demo',
       theme: ThemeData(
 
